@@ -1,0 +1,44 @@
+@SKYWARN Skywarn A: Weather Station Report|SKY!100
+
+. Version: 03/06/2026.A - @SKYWARN
+
+!! Weather Station Report
+
+. Context
+[SP] Skywarn Spotter ID:
+[DT] Date (YYYY-MM-DD):
+[TM] Time (HH:MM)(UTC):
+[ST] State (2-letter code):
+[GR] Maidenhead Grid Square:
+
+? Units - Select measurement system
+@0 SI - Metric System
+@1 US - Imperial System
+
+. Temperature
+[TC] Temperature Current (°C/°F):
+[TN] Temperature Min (°C/°F):
+[TX] Temperature Max (°C/°F):
+
+. Humidity
+[HM] Humidity Min (%):
+[HM] Humidity Max (%):
+[HM] Humidity Current (%):
+
+. Windspeed
+[WC] Windspeed Current (m/s|mph):
+[W2] Windspeed 2 Min Average (m/s|mph):
+[WX] Windspeed 10 Min Average (m/s|mph):
+
+. Dew Point
+[DP] Dew Point (°C/°F):
+
+. Barometer
+[BP] Barometer (hPa/inHg):
+
+. Precipitation
+[PR] Precipitation Rate (mm|in/hr):
+[PT] Precipitation Daily Total (mm/in):
+.
+
+. More info - https://github.com/Solearing/ham-emcomm-skywarn-js8spotter-mcforms
