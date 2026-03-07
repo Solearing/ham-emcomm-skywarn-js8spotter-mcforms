@@ -1,6 +1,6 @@
 @SKYWARN Skywarn A: Weather Station Report|SKY!100
 
-. Version: 03/06/2026.A - @SKYWARN
+. Version: 03/07/2026.A - @SKYWARN
 
 !! Weather Station Report
 
@@ -15,26 +15,31 @@
 @0 SI - Metric System
 @1 US - Imperial System
 
+. Comment
+[C0] Comment:
+
 . Temperature
 [TC] Temperature Current (°C/°F):
 [TN] Temperature Min (°C/°F):
 [TX] Temperature Max (°C/°F):
 
 . Humidity
-[HM] Humidity Min (%):
-[HM] Humidity Max (%):
-[HM] Humidity Current (%):
+[HC] Humidity Current (%):
+[HN] Humidity Min (%):
+[HX] Humidity Max (%):
 
 . Windspeed
 [WC] Windspeed Current (m/s|mph):
-[W2] Windspeed 2 Min Average (m/s|mph):
-[WX] Windspeed 10 Min Average (m/s|mph):
+[WN] Windspeed Min (m/s|mph):
+[WX] Windspeed Max (m/s|mph):
 
 . Dew Point
 [DP] Dew Point (°C/°F):
 
 . Barometer
-[BP] Barometer (hPa/inHg):
+[BP] Barometer Current (hPa/inHg):
+[BN] Barometer Min (hPa/inHg):
+[BX] Barometer Max (hPa/inHg):
 
 . Precipitation
 [PR] Precipitation Rate (mm|in/hr):
